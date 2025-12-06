@@ -1,0 +1,41 @@
+[33mcommit af49174b1e178b549fbc407904119759aad49eb6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: NCMuthunayaka <nayanachandupamuthunayaka@gmail.com>
+Date:   Sat Dec 6 11:14:40 2025 +0530
+
+    create brach control paln to reduse conflict
+
+[33mcommit 84e5886470a1acdc5d3556eb1d77ff2ab9647dfd[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: NCMuthunayaka <nayanachandupamuthunayaka@gmail.com>
+Date:   Sat Dec 6 11:13:37 2025 +0530
+
+    add project paln to go through
+
+[33mcommit 2dbe90a5e5ec43461c9739a8349a2e82ade50cd3[m
+Author: NCMuthunayaka <nayanachandupamuthunayaka@gmail.com>
+Date:   Sat Dec 6 11:13:04 2025 +0530
+
+    create landing page header section and apply css to it
+
+[33mcommit 86a95bd34c3ee80456c5f81d0483f4bf9b1e81cb[m
+Author: NCMuthunayaka <nayanachandupamuthunayaka@gmail.com>
+Date:   Sat Dec 6 11:11:49 2025 +0530
+
+    crete reusable codes in base.html to reduse rework
+
+[33mcommit a8f2aa756a930d93a48b77f0168a43bcf3f33755[m[33m ([m[1;31morigin/feature/project-setup[m[33m, [m[1;32mfeature/project-setup[m[33m)[m
+Author: NCMuthunayaka <nayanachandupamuthunayaka@gmail.com>
+Date:   Thu Dec 4 12:06:06 2025 +0530
+
+    adding fixed code structures and configure the tailwind css coloures
+
+[33mcommit 5e997dc2587371b2c8a2a0900213423215793f99[m[33m ([m[1;31morigin/feature/transactions[m[33m, [m[1;31morigin/feature/styling-polish[m[33m, [m[1;31morigin/feature/reports[m[33m, [m[1;31morigin/feature/landing-page[m[33m, [m[1;31morigin/feature/dashboard[m[33m, [m[1;31morigin/feature/authentication[m[33m, [m[1;31morigin/develop[m[33m, [m[1;32mfeature/transactions[m[33m, [m[1;32mfeature/styling-polish[m[33m, [m[1;32mfeature/reports[m[33m, [m[1;32mfeature/landing-page[m[33m, [m[1;32mfeature/dashboard[m[33m, [m[1;32mfeature/authentication[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: NCMuthunayaka <nayanachandupamuthunayaka@gmail.com>
+Date:   Wed Dec 3 18:47:14 2025 +0530
+
+    add reqi=uirment file to the falder to intialized venv
+
+[33mcommit 84fa06df3ea48da7c00176a3dd814c76cc935ddc[m
+Author: NCMuthunayaka <nayanachandupamuthunayaka@gmail.com>
+Date:   Wed Dec 3 18:26:23 2025 +0530
+
+    Initial commit: project structure
