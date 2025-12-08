@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,86 +8,102 @@
     <link rel="icon" href="../../static/images/favicon.png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-<div class="relative min-h-screen flex flex-col overflow-hidden bg-black">
-    <!-- Background Image -->
-    <div class="absolute inset-0 bg-[url('../../static/images/background.jpeg')] bg-cover bg-center opacity-50"></div>
-    
-    <!-- Lighter Black Overlay -->
-    <div class="absolute inset-0 bg-black/50"></div>
-    <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/70"></div>
-    
-    <!-- Purple Glowing Effects -->
-    <div class="absolute -top-40 -left-20 w-[600px] h-[600px] bg-purple-600/8 rounded-full blur-3xl"></div>
-    <div class="absolute -top-32 right-10 w-[500px] h-[500px] bg-violet-600/6 rounded-full blur-3xl"></div>
-    <div class="absolute top-20 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-purple-500/10 rounded-full blur-3xl"></div>
-    
-    <!-- Middle Section Glows -->
-    <div class="absolute top-1/2 -left-32 w-[400px] h-[400px] bg-purple-500/5 rounded-full blur-3xl"></div>
-    <div class="absolute top-1/2 -right-32 w-[400px] h-[400px] bg-violet-500/5 rounded-full blur-3xl"></div>
-    
-    <!-- Bottom Spread Out Glows -->
-    <div class="absolute -bottom-40 left-1/4 w-[500px] h-[500px] bg-purple-600/7 rounded-full blur-3xl"></div>
-    <div class="absolute -bottom-32 right-1/4 w-[450px] h-[450px] bg-violet-600/6 rounded-full blur-3xl"></div>
-    
-    <!-- Content Layer -->
-    <div class="relative z-10 flex flex-col min-h-screen">
-        <!-- Header with subtle backdrop blur -->
-        <header class="bg-black/20 backdrop-blur-md border-b border-white/10">
-            <div class="container mx-auto px-6 py-5 flex justify-between items-center">
-                <div class="text-2xl font-bold text-white tracking-tight">FinTrack</div>
-                <nav class="flex items-center gap-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-200">Features</a>
-                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-200">About Us</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-200">Contact</a>
-                    <a href="/login" class="text-white hover:text-gray-200 transition-colors duration-200 flex items-center gap-1">
-                        Log in →
+    <div class="relative min-h-screen flex flex-col overflow-hidden bg-black">
+        <!-- Background Image -->
+        <div class="absolute inset-0 bg-[url('../../static/images/background.jpeg')] bg-cover bg-center backdrop-brightness-50   "></div>
+
+        <!-- Lighter Black Overlay -->
+        <div class="absolute inset-0 bg-black/70"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/70 to-black/90"></div>
+
+        <!-- Purple Glowing Effects -->
+        <div class="absolute -top-40 -left-20 w-[600px] h-[600px] bg-blue-600/5 rounded-full blur-3xl"></div>
+        <div class="absolute -top-32 right-10 w-[500px] h-[500px] bg-cyan-600/6 rounded-full blur-3xl"></div>
+        <div class="absolute top-20 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-blue-500/10 rounded-full blur-3xl">
+        </div>
+
+        <!-- Middle Section Glows -->
+        <div class="absolute top-1/2 -left-32 w-[400px] h-[400px] bg-blue-500/5 rounded-full blur-3xl"></div>
+        <div class="absolute top-1/2 -right-32 w-[400px] h-[400px] bg-cyan-500/5 rounded-full blur-3xl"></div>
+
+        <!-- Bottom Spread Out Glows -->
+        <div class="absolute -bottom-40 left-1/4 w-[500px] h-[500px] bg-blue-600/7 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-32 right-1/4 w-[450px] h-[450px] bg-cyan-600/6 rounded-full blur-3xl"></div>
+
+        <!-- Content Layer -->
+        <div class="relative z-10 flex flex-col min-h-screen">
+            <!-- Header -->
+            <header class="bg-black/5 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/20 fixed w-full top-0 left-0">
+                <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+                    <div class="text-2xl font-bold text-white tracking-tight pl-20">FinTrack</div>
+                    <nav class="flex items-center gap-8 pr-20">
+                        <a href="#features"
+                            class="text-gray-300 hover:text-white transition-colors duration-200">Features</a>
+                        <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-200">About
+                            Us</a>
+                        <a href="#contact"
+                            class="text-gray-300 hover:text-white transition-colors duration-200">Contact</a>
+                        <a href="/login"
+                            class="text-white hover:text-gray-200 transition-colors duration-200 flex items-center gap-1">
+                            Log in →
+                        </a>
+                    </nav>
+                </div>
+            </header>
+
+            <main class="flex-grow flex flex-col justify-center items-center text-center pt-20">
+                <div class="mb-4 pb-6 inline-block">
+                    <span
+                        class="text-sm text-blue-300 bg-blue-500/15 px-4 py-2 rounded-full border border-blue-500/20 backdrop-blur-sm cursor-pointer hover:bg-blue-500/25 transition-all duration-300">
+                        ✨ Announcing our next round of funding. Read more →
+                    </span>
+                </div>
+
+                <h1
+                    class="text-6xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-tight max-w-4xl drop-shadow-2xl">
+                    Take Control of Your
+                    <span
+                        class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent tracking-tight">Finances</span>
+                </h1>
+                <p class="text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed drop-shadow-lg">
+                    Your personal finance tracker to manage expenses, budget, and savings all in one place.
+                    Join over 50,000 users taking charge of their financial future.
+                </p>
+
+                <div class="flex gap-4">
+                    <a href="/signup"
+                        class="bg-blue-600 w-56 text-white px-10 py-2 rounded-lg text-md font-semibold hover:bg-blue-700 transition-all duration-300 shadow-xl shadow-blue-600/20 hover:shadow-blue-600/40">
+                        Get Started Free →
                     </a>
-                </nav>
-            </div>
-        </header>
-        
-        <main class="flex-grow flex flex-col justify-center items-center text-center px-4">
-            <div class="mb-4 inline-block">
-                <span class="text-sm text-purple-300 bg-purple-500/15 px-4 py-2 rounded-full border border-purple-500/20 backdrop-blur-sm">
-                    Announcing our next round of funding. Read more →
-                </span>
-            </div>
-            
-            <h1 class="text-6xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-tight max-w-4xl drop-shadow-2xl">
-                Take Control of Your Finances with FinTrack
-            </h1>
-            <p class="text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed drop-shadow-lg">
-                Your personal finance tracker to manage expenses, budget, and savings all in one place.
-            </p>
-            
-            <div class="flex gap-4">
-                <a href="/signup" class="bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-all duration-300 shadow-xl shadow-purple-600/20 hover:shadow-purple-600/40">
-                    Get Started
-                </a>
-                <a href="#learn" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/15 transition-all duration-300 border border-white/20">
-                    Learn more →
-                </a>
-            </div>
-        </main>
-        
-        <!-- Logo Section -->
-        <div class="pb-16">
-            <div class="container mx-auto px-4">
-                <div class="flex justify-center items-center gap-12 opacity-50">
-                    <div class="text-white text-xl font-semibold">Transistor</div>
-                    <div class="text-white text-xl font-semibold">Reform</div>
-                    <div class="text-white text-xl font-semibold">Tuple</div>
-                    <div class="text-white text-xl font-semibold">SavvyCal</div>
-                    <div class="text-white text-xl font-semibold">Statamic</div>
+                    <a href="#learn"
+                        class="bg-white/10 w-56 backdrop-blur-sm text-white px-10 py-2 rounded-lg text-md font-semibold hover:bg-white/15 transition-all duration-300 border border-white/20">
+                        Learn more 
+                    </a>
+                </div>
+            </main>
+
+            <!-- Logo Section -->
+            <div class="pb-20">
+                <div class="text-center text-white/50 text-xl font-mono mb-4">TRUSTED BY TEAMS AT</div>
+                <div class="container mx-auto px-4">
+                    <div class="flex justify-center items-center gap-12 opacity-30">
+                        <div class="text-white text-md font-semibold">Transistor</div>
+                        <div class="text-white text-md font-semibold">Reform</div>
+                        <div class="text-white text-md font-semibold">Tuple</div>
+                        <div class="text-white text-md font-semibold">SavvyCal</div>
+                        <div class="text-white text-md font-semibold">Statamic</div>
+                    </div>
                 </div>
             </div>
+            <hr class="border-white/10 z-10">
+
+
         </div>
-        
-        <footer class="bg-transparent text-center py-8 border-t border-white/10">
-            <p class="text-gray-400">&copy; 2024 FinTrack. All rights reserved.</p>
-        </footer>
     </div>
-</div>
+    <hr class="border-white/10 z-10">
+    
 </body>
+
 </html>
